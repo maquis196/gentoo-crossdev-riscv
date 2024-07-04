@@ -1,0 +1,5 @@
+cross-alpha-gentoo-linux-gnu/binutils riscv -amd64 -~amd64
+cross-alpha-gentoo-linux-gnu/gcc riscv -amd64 -~amd64
+cross-alpha-gentoo-linux-gnu/linux-headers riscv -amd64 -~amd64
+cross-alpha-gentoo-linux-gnu/glibc riscv -amd64 -~amd64
+cross-alpha-gentoo-linux-gnu/gdb riscv ~alpha -amd64 -~amd64 
