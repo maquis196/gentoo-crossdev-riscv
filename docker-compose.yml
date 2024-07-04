@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  gentoo-crossdev-riscv64:
+    image: local/gentoo-crossdev-riscv64:stable
+    container_name: gentoo-crossdev-riscv64
+    restart: unless-stopped
+    network_mode: "host"
+    volumes:
+      - /mnt/gentoo:/usr/risc64-unknown-linux-gnu/var/cache/binpkgs
